@@ -24,6 +24,10 @@
   color: white;
 }
 
+#author {
+  color: grey
+}
+
 .App-link {
   color: #61dafb;
 }
