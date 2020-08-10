@@ -5,14 +5,16 @@ class Quote extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      text: 'quote',
-      author: 'author',
+      text: '',
+      author: '',
       quote: quotes[Math.floor(Math.random() * quotes.length)]
   }
   this.newQuote = this.newQuote.bind(this)
 }
 // quotes[Math.floor(Math.random() * quotes.length)]
-
+componentDidMount() {
+  this.newQuote()
+}
 
 
 newQuote(){
