@@ -14,6 +14,13 @@ class Quote extends React.Component {
 // quotes[Math.floor(Math.random() * quotes.length)]
 componentDidMount() {
   this.newQuote()
+
+  this.intervalID = setInterval(this.newQuote.bind(this), 60000);
+}
+
+componentWillUnmount() {
+
+  clearInterval(this.intervalID);
 }
 
 
@@ -32,9 +39,10 @@ newQuote(){
   render(){
     return(
       <div id="quote-box">
+        <h1>BLM quotes</h1>
+        <button id="new-quote" onClick={this.newQuote}>New Quote</button>
         <p id="text">{this.state.text}</p>
         <p id="author">{this.state.author}</p>
-        <button id="new-quote" onClick={this.newQuote}>New Quote</button>
     </div>
     )
   }

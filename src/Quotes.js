@@ -8,7 +8,7 @@ export const quotes = [
   {  text: "It’s up to all of us — Black, white, everyone — no matter how well-meaning we think we might be, to do the honest, uncomfortable work of rooting it out.",
      author: 'Michelle Obama'
   },
-  {  text: "ou can’t separate peace from freedom because no one can be at peace unless he has his freedom.",
+  {  text: "You can’t separate peace from freedom because no one can be at peace unless he has his freedom.",
      author: 'Malcolm X'
   },
   {  text: "Struggle is a never ending process. Freedom is never really won, you earn it and win it in every generation.",
