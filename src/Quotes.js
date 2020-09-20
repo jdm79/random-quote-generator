@@ -26,7 +26,7 @@ export const quotes = [
   {  text: "It is certain, in any case, that ignorance, allied with power, is the most ferocious enemy justice can have.",
      author: 'James Baldwin'
   },
-  {  text: "Arotest is not the end of progress, it is the beginning … I stand with Minneapolis. I believe in us. Change is gonna come.",
+  {  text: "A protest is not the end of progress, it is the beginning … I stand with Minneapolis. I believe in us. Change is gonna come.",
      author: 'Lizzo'
   },
   {  text: "People don’t realize what’s really going on in this country. There are a lot things that are going on that are unjust. People aren’t being held accountable for. And that’s something that needs to change. That’s something that this country stands for: freedom, liberty and justice for all.",
